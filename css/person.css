@@ -1,0 +1,717 @@
+
+.footerItem1{
+    background-position: 24.9% 20%!important;
+}
+
+.footerItem1+span{
+    color:#868686;
+}
+.footerItem5+span{
+    color:#fb635f;
+}
+.footerItem5{
+    background-position: 78% 13.2%!important;
+}
+.content{
+    margin:0;}
+.p-header{
+    width:100%;
+    height:150px;
+    overflow: hidden;
+    background: -webkit-linear-gradient(left,#fb5c4f,#fc7351,#fd9253,#feb656,#ffd258);
+    background: -moz-linear-gradient(left,#fb5c4f,#fc7351,#fd9253,#feb656,#ffd258);
+    background: -webkit-linear-gradient(left,#fb5c4f,#fc7351,#fd9253,#feb656,#ffd258);
+    background: -o-linear-gradient(left,#fb5c4f,#fc7351,#fd9253,#feb656,#ffd258);
+}
+
+.p-user{
+    width:70%;
+    height:40px;
+    margin:12px 0 0 12px;
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    vertical-align:middle;
+}
+.p-icon{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    background: #ccc;
+}
+.p-icon>img{
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+}
+.p-user>span{
+    font-size: 10pt;
+    color: #fff;
+    margin-left: 15px;
+}
+.p-header>h1{
+    line-height:80px;
+    font-weight:normal;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+.p-btn{
+    width:100%;
+    height:42px;
+    background:#fd9953;
+}
+
+.p-btn>a{
+    display: block;
+    width:49%;
+    height:42px;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+}
+.p-btn>a>h1{
+    font-size: 11pt;
+    color: #fff;
+    width:60%;
+    margin:auto;
+    text-align: center;
+    line-height:42px;
+    background: url(../imgs/icon.png);
+    background-repeat: no-repeat;
+    background-size: 700%;
+}
+.p-charge{
+    background-position: 107% 26.3%!important;
+}
+.p-withdraw{
+    background-position: 8% 32.3%!important;
+}
+.p-wrapper{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+    background: #fff;
+}
+.p-content{
+    width:95%;
+    height:auto;
+    overflow: hidden;
+    margin:10px auto 0;
+}
+.p-item{
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    vertical-align:middle;
+    width:100%;
+    height:50px;
+
+    border-bottom: 1px solid #eee;
+}
+.p-item:last-child{
+    border-bottom: none;
+}
+.p-item>h1{
+    font-size: 11pt;
+    color: #333;
+    font-weight:normal;
+}
+
+.p-item-icon{
+    width:23px;
+    height:23px;
+    display: block;
+    margin-right: 10px;
+    background: red;
+    background: url(../imgs/icon.png);
+    background-repeat: no-repeat;
+    background-size: 2400%;
+
+}
+.p-item-arrow{
+    width:23px;
+    height:23px;
+    position: absolute;
+    right:0;
+    display: block;
+    margin-right: 10px;
+    background: red;
+    background: url(../imgs/icon.png);
+    background-repeat: no-repeat;
+    background-size: 2800%;
+    background-position: 42% 40%;
+}
+.p-item-icon0{
+    background-position: 60% 26.7%!important;
+}
+.p-item-icon1{
+    background-position: 7% 26.7%!important;
+}
+.p-item-icon2{
+    background-position: 42.3% 26.7%!important;
+}
+.p-item-icon3{
+    background-position: 25% 26.7%!important;
+}
+.p-item-icon4{
+    background-position: 78% 26.7%!important;
+}
+
+
+
+/*个人中心公共头部开始*/
+.p-commenHeader{
+    width:100%;
+    height:40px;
+    background:#fb524e;
+    position: fixed;
+    top:0;
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    vertical-align:middle;
+}
+.p-back{
+    width:23px;
+    height:23px;
+    display: block;
+    background: #000;
+    margin-left: 2.5%;
+    background: url(../imgs/icon.png);
+    background-repeat: no-repeat;
+    background-size: 2400%;
+    background-position: 25% 39.7%!important;
+}
+
+.p-commenHeader>h1{
+     text-align: center;
+    line-height:40px;
+    font-size: 12pt;
+    color: #fff;
+    font-weight:normal;
+    width:120px;
+    height:40px;
+    position: absolute;
+    left:50%;
+    margin-left: -60px;
+    letter-spacing: 1px;
+}
+
+.p-edit{
+    width:40px;
+    height:23px;
+    position: absolute;
+    right:0;
+    display: block;
+    font-size: 10pt;
+    color: #fff;
+    line-height:23px;
+}
+.p-chooseAll{
+    display: none;
+    right:45px;
+}
+.p-cancel{
+    display: none;
+}
+
+
+/*个人中心公共头部结束*/
+
+
+/*提现记录开始*/
+.p-nav{
+    width:100%;
+    height:44px;
+    background: #fff;
+    margin-top:40px;
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    vertical-align:middle;
+    justify-content:space-around;
+    overflow: hidden;
+}
+.content{
+    background: #f4f4f4;
+}
+.p-nav>a{
+    text-decoration: none;
+    font-size: 11pt;
+    color: #333;
+    padding-bottom:8px;
+}
+
+.p-record{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+    background: #fff;
+    margin-top: 10px;
+}
+
+.p-recordList{
+    height:60px;
+    width:95%;
+    margin:auto;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    vertical-align:middle;
+    position: relative;
+    text-decoration: none;
+}
+.p-recordList:last-child{
+    border-bottom: none;
+}
+
+.p-recordList>div>h1{
+    font-weight:normal;
+    font-size: 10pt;
+    color: #333;
+}
+
+.p-recordList>div>span{
+    font-weight:normal;
+    font-size: 9pt;
+    color: #999999;
+}
+.p-recordList>span{
+     font-size: 10pt;
+    color:#fb524e;
+    position: absolute;
+    right:0%;
+}
+
+
+/*提现记录结束*/
+
+
+/*个人消息开始*/
+.p-message{
+    margin-top:40px;
+}
+#mask{
+    width:100%;
+    height:100%;
+    position: fixed;
+    top:0;
+    background: #000;
+    opacity:.5;
+    display: none;
+}
+.msg-box{
+    width:90%;
+    height:auto;
+    position: fixed;
+    top:50%;
+    left:50%;
+    margin-left: -45%;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    display: none;
+}
+.msg-box>h1{
+    font-weight:bold;
+    font-size: 12pt;
+    color: #333;
+    text-align: center;
+    margin:10px 0 15px 0 ;
+}
+.msg-box>p{
+    font-size: 10pt;
+    color: #333;
+    width:95%;
+    margin:0 auto 55px;
+    line-height:150%;
+}
+.msg-btn{
+    width:100%;
+    height:45px;
+    border-top: 1px solid #eee;
+    position: absolute;
+    bottom:0;
+}
+.msg-btn>a{
+    display: block;
+    width:49%;
+    height:45px;
+    float: left;
+    font-size: 12pt;
+    line-height:45px;
+    text-align: center;
+    text-decoration: none;
+
+}
+.msg-delete{
+    border-right: 1px solid #eee;
+    color:#999999;
+}
+.msg-confirm{
+    color: #fb5d59;
+}
+
+.msg-edit{
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    background:red;
+    margin-right: 10px;
+    background: url(../imgs/icon.png);
+    background-repeat: no-repeat;
+    background-size: 2400%;
+    background-position: 25% 33%;
+    display: none;
+}
+
+.delete{
+    height:50px;
+    width:100%;
+    position: fixed;
+    background: #fff;
+    bottom:0;
+    display: none;
+}
+
+.delete>span{
+    width:24px;
+    height:25px;
+    display: block;
+    background: #000;
+    margin:12px auto 0;
+    background: url(../imgs/icon.png);
+    background-repeat: no-repeat;
+    background-size: 2400%;
+    background-position: 25% 13.3%;
+}
+
+/*个人消息结束*/
+
+
+
+/*充值开始*/
+
+.p-c-con{
+    width:100%;
+    height:auto;
+    background: #fff;
+}
+
+.p-c-charge{
+    width:93%;
+    height:260px;
+    margin:40px auto 0;
+    overflow: hidden;
+    /*background:red;*/
+}
+.p-c-charge>h1{
+    font-weight:normal;
+    font-size: 11pt;
+    color: #999999;
+    margin: 10px 0 20px 0;
+    letter-spacing: 1px;
+}
+.p-c-box{
+    width:100%;
+    height:140px;
+}
+.p-c-box>div{
+    width:28%;
+    height:35px;
+    border:1px solid #333;
+    border-radius: 5px;
+    display: inline-block;
+    margin:0 0 10px 5%;
+    font-size: 11pt;
+    color: #333;
+    text-align: center;
+    line-height:35px;
+}
+.p-c-box>div:nth-child(3n+1){
+    margin-left: 0;
+}
+.otherExtra{
+    width:100%;
+    height:40px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    vertical-align: middle;
+    justify-content: space-around;
+    position: relative;
+    font-size: 10pt;
+    color: #333;
+}
+.otherExtra>input{
+    height:40px;
+    border:none;
+    outline:none;
+    width: 70%;
+
+}
+.otherExtra-span{
+    float: left;
+}
+.otherExtra-sign{
+    position: absolute;
+    right:0;
+}
+
+.p-c-style{
+    width:93%;
+    height:auto;
+    overflow: hidden;
+    margin:0 auto 0;
+}
+.p-c-con>h1{
+    height:40px;
+    line-height:40px;
+    width:100%;
+    background:#f4f4f4;
+    font-size: 11pt;
+    color:#999;
+    padding-left: 3.5%;
+    font-weight:normal;
+}
+.p-c-tools{
+    width:100%;
+    height:44px;
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    vertical-align:middle;
+    justify-content:space-around;
+    border-bottom: 1px solid #eee;
+}
+.p-c-tools>span{
+    display: block;
+    font-size: 9pt;
+    color: #666;
+    text-align: center;
+    line-height:30px;
+}
+
+.p-c-tools-content{
+    width:95%;
+    height:auto;
+    overflow: hidden;
+    margin:15px auto 0;
+}
+
+.p-c-tools-content>a{
+    width:43%;
+    height:40px;
+    display: inline-block;
+    border:1px solid #b2b2b2;
+    border-radius: 5px;
+    margin:0  10% 10px 0;
+    background: url(../imgs/icon.png);
+    background-repeat: no-repeat;
+    background-size: 400%;
+    position: relative;
+}
+/*.p-c-tools-content>a>span{*/
+.checked{
+    /*display: none;*/
+    width:20px;
+    height:20px;
+    position: absolute;
+    right:0;
+    bottom:0;
+    background: url(../imgs/icon.png);
+    background-repeat: no-repeat;
+    background-size: 2400%;
+    background-position: 6.6% 40%!important;
+}
+
+.p-c-tools-content>a:nth-child(2n){
+    margin-right: 0;
+}
+
+.bankOn{
+    border:1px solid #fb524e!important;
+}
+.bank0{
+    background-position: 4% 50%!important;
+}
+.bank1{
+    background-position: 48% 50%!important;
+}
+.bank2{
+    background-position: 95% 50%!important;
+}
+.bank3{
+    background-position: 6% 59.5%!important;
+}
+
+
+.p-c-next{
+    width:100%;
+    height:130px;
+}
+
+.p-c-next>a{
+    display: block;
+    width:90%;
+    height:45px;
+    margin:10% auto 0;
+    border-radius: 20px;
+    background:#ffd258;
+    color: #fff;
+    line-height:45px;
+    text-align: center;
+    font-size: 13pt;
+    text-decoration: none;
+    font-weight:bold;
+}
+/*充值结束*/
+
+
+/*玩法说明开始*/
+.p-rule-box{
+    width:100%;
+    height:auto;
+    margin-top: 40px;
+    overflow: hidden;
+    background: #fff;
+}
+.p-rule{
+    width:95%;
+    height:auto;
+    margin:10px auto 0;
+    overflow: hidden;
+}
+.p-rule>h1{
+    font-weight:normal;
+     font-size: 13pt;
+    color: #333;
+    margin:10px 0 5px 0;
+}
+.p-rule>p{
+    font-size: 10pt;
+    color: #333;
+}
+
+/*玩法说明结束*/
+
+
+
+/*账户管理开始*/
+
+.p-a-mbox{
+    width:100%;
+    height:auto;
+    margin-top: 45px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.p-a-item>h1{
+    margin-left: 2.5%;
+}
+
+.p-a-exit{
+    width:100%;
+    height:40px;
+    background: #fff;
+    margin-top: 50px;
+    text-align: center;
+}
+.p-a-exit>a{
+     text-decoration: none;
+    line-height:40px;
+    font-size: 12pt;
+    color: #333;
+    cursor: pointer;
+}
+
+/*账户管理结束*/
+
+
+/*修改登录密码开始*/
+.p-l-pItem>input{
+    width:55%;
+    height:40px;
+    border:none;
+    outline:none;
+}
+.p-l-pItem>span:first-child{
+     margin-left: 5%;
+}
+.p-l-pItem-icon0{
+    background-position: 78% 32.7%!important;
+}
+
+
+/*修改登录密码结束*/
+
+/*绑定银行卡开始*/
+.p-bindBox{
+    width:100%;
+    height:auto;
+    margin-top: 45px;
+    overflow: hidden;
+}
+.p-bindBox>h1{
+    font-weight:normal;
+     font-size: 12pt;
+    color:#999999;
+    height:45px;
+    line-height:45px;
+    margin-left: 2.5%;
+}
+
+.p-bindInfo{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+    background: #fff;
+}
+
+.p-b-item>input {
+    width: 55%;
+    height: 40px;
+    border: none;
+    outline: none;
+    margin-left: 20px;
+
+}
+.p-b-item>span:first-child{
+     font-size: 11pt;
+     color: #333;
+    margin-left: 2.5%;
+}
+
+.p-b-item-icon{
+    width:24px;
+    height:24px;
+    position: absolute;
+    right:0;
+    display: block;
+    margin-right: 10px;
+    background: red;
+    background: url(../imgs/icon.png);
+    background-repeat: no-repeat;
+    background-size: 2800%;
+    background-position: 60% 32.8%;
+}
+.p-b-item>h1{
+     margin-left: 15px;
+}
+
+.tradePassword{
+    width:35px!important;
+    height:30px!important;
+    margin-left: 10px!important;
+    border:1px solid #b2b2b2!important;
+}
+
+
+/*绑定银行卡结束*/
