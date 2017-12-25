@@ -419,7 +419,7 @@ body{
         height:70px;
     }
     .ball-box{
-        width: 29px;
+        width: 30px;
         height:65px;
         display: flex;
         flex-direction:column;
