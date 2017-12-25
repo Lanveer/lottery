@@ -18,8 +18,6 @@ $(function () {
 //         $(this).find()
 //     })
 
-
-
 //    充值记录界面
 
     $('.p-nav>a').eq(0).css({
@@ -35,7 +33,27 @@ $(function () {
             color:'#333',
             borderBottom:'none'
         })
-    })
+    });
+
+
+    //     购彩记录点击
+
+    $('.r-header>a').eq(0).css({
+        color:'#fb524e',
+        'borderBottom':'1px solid #fb524e'
+    });
+    $('.r-header a').click(function (e) {
+        e.preventDefault();
+        $(this).css({
+            color:'#fb524e',
+            'borderBottom':'1px solid #fb524e'
+        }).siblings().css({
+            color:'#333',
+            borderBottom:'none'
+        })
+    });
+
+
 
 
 //    我的消息弹窗
@@ -116,7 +134,7 @@ $(function () {
             color:'#666',
             'borderBottom':'none'
         })
-    })
+    });
 
 
 //    点击充值银行
@@ -125,6 +143,10 @@ $(function () {
         e.preventDefault();
         $(this).addClass('bankOn').siblings().removeClass('bankOn');
         $(this).find('span').addClass('checked').parent().siblings().find('span').removeClass('checked')
-    })
+    });
 
-})
+
+
+
+
+});
