@@ -1,0 +1,230 @@
+.footerItem1{
+    background-position: 24.9% 20%!important;
+}
+
+.footerItem1+span{
+    color:#868686;
+}
+
+
+.footerItem2+span{
+    color:#fb635f;
+}
+.footerItem2{
+    background-position:78% 20.2%!important;
+}
+
+.list{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top:40px;
+    background:#f4f4f4;
+}
+.list-header{
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    vertical-align:middle;
+    justify-content: space-around;
+    font-size: 10pt;
+    color: #333;
+    text-align: center;
+}
+.list-header>span{
+    color: #fb524e;
+}
+.list-content{
+    width: 100%;
+    height: auto;
+    margin: 15px 0 0 0;
+    overflow: hidden;
+    background: #fff;
+    padding-bottom: 50px;
+}
+
+.list-item{
+    width: 95%;
+    height: 90px;
+    border: 1px solid #b2b2b2;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+.list-item-top{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    margin-top: 15px;
+    flex-direction: row;
+    align-items: center;
+    vertical-align:middle;
+    position: relative;
+}
+.l-i-left{
+    width: calc(100% - 80px);
+    float: left;
+    margin-left: 5px;
+}
+.others{
+    width: 30px;
+    height: 20px;
+    font-size: 10pt;
+    border: 1px solid #fb524e;
+    color: #fb524e;
+    border-radius: 5px;
+    padding: 0 5px 0 5px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.listBall{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 9pt;
+    line-height: 20px;
+    text-align: center;
+    display: inline-block;
+}
+.l-i-right{
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    vertical-align:middle;
+    font-size: 10pt;
+    color:#333333;
+}
+.l-i-right>input{
+    width: 50px;
+    height: 25px;
+    border: 1px solid #b2b2b2;
+    outline: none;
+    margin-right: 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: #333;
+}
+
+.list-item-down{
+    display: flex;
+    margin-top: 15px;
+    flex-direction: row;
+    align-items: center;
+    vertical-align:middle;
+    font-size: 10pt;
+    color: #333;
+    justify-content: space-between;
+}
+.list-item-down>span:first-child{
+     margin-left: 5px;
+}
+.list-item-down>span:last-child{
+    margin-right: 20px;
+}
+
+.clear{
+    width: 60px;
+    height: 30px;
+    background:#fb524e;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    font-size: 12pt;
+    float: right;
+    margin-right: 2.5%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.add{
+    width: 95%;
+    height: 30px;
+    margin: 0 auto;
+    clear: both;
+}
+.add>span{
+    float: left;
+    font-size: 10pt;
+    color: #333;
+    line-height: 30px;
+}
+.add-btn{
+    width:auto;
+    height: 30px;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    vertical-align:middle;
+    font-size: 10pt;
+}
+
+.totalNumber{
+    width: 60px;
+    height: 28px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #b2b2b2;
+}
+.sub{
+    width: 28px;
+    height:28px;
+    border: 1px solid #b2b2b2;
+    font-size: 12pt;
+    text-align: center;
+    line-height: 28px;
+    margin:0 3px 0 5px;
+    background: #fff;
+}
+.plus{
+    width: 28px;
+    height: 28px;
+    border: 1px solid #b2b2b2;
+    font-size: 12pt;
+    text-align: center;
+    line-height: 28px;
+    margin:0 3px 0 5px;
+    background: #fff;
+}
+
+.totalMoney{
+    width: 80%;
+    height: 30px;
+    margin:20px auto 0;
+    line-height: 30px;
+
+
+}
+.totalMoney>h1{
+    font-size: 10pt;
+    color: #5a5a5a;
+    text-align: center;
+}
+.totalMoney>h1>span{
+    color: #fb625e;
+}
+.pay{
+    width: 100%;
+    height: 45px;
+    margin: 0 auto 20px;
+}
+.pay>a{
+    display: block;
+    width:90%;
+    height:45px;
+    margin:10% auto 0;
+    border-radius: 20px;
+    background:#ffd258;
+    color: #fff;
+    line-height:45px;
+    text-align: center;
+    font-size: 13pt;
+    text-decoration: none;
+    font-weight:bold;
+}

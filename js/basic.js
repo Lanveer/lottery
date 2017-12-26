@@ -7,23 +7,67 @@ $(function () {
     $('.nav-detail-box').eq(0).show();
     $('.nav>a').click(function (e) {
         e.preventDefault();
-        $(this).addClass('on').siblings().removeClass('on');
+        $(this).addClass('active').siblings().removeClass('active');
         var idx= $(this).index();
         $('.nav-detail-box').hide().eq(idx).show()
-    })
+    });
 
 
-//    底部菜单的点击事件
-//     $('.footer>a').click(function () {
-//         $(this).find()
-//     })
+//    顶部菜单的点击
+    $('.header>h1').click(function () {
+        $('.topMenu').slideToggle();
+        $('#index-mask').fadeToggle();
+
+    });
+
+
+//    半波的选择
+    $('.wave-nav>a').eq(0).css({
+        'background':'#fb524e',
+        'color':'#fff'
+    });
+    $('.wave-content>div').eq(0).show();
+
+    $('.wave-nav>a').click(function (e) {
+        e.preventDefault();
+       var idx= $(this).index();
+        console.log(idx);
+        switch (idx){
+            case 0:
+                $(this).css({
+                    'background':'#fb524e',
+                    'color':'#fff'
+                }).siblings().css({
+                    'background':'#fff'
+                });
+                break;
+            case 1:
+                $(this).css({
+                    'background':'#39daa8',
+                    'color':'#fff'
+                });
+                break;
+            case 2:
+                $(this).css({
+                    'background':'#34cafd',
+                    'color':'#fff'
+                });
+                break;
+        }
+       $('.wave-content>div').eq(idx).show().siblings().hide()
+
+    });
+
+
+
+
 
 //    充值记录界面
 
     $('.p-nav>a').eq(0).css({
         color:'#fb524e',
         'borderBottom':'1px solid #fb524e'
-    })
+    });
     $('.p-nav a').click(function (e) {
         e.preventDefault();
         $(this).css({

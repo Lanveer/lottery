@@ -1,0 +1,89 @@
+.wave-nav{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    vertical-align:middle;
+    margin-top: 10px;
+}
+
+.wave-nav>a{
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 10pt;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.r-wave{
+    color: #fb524e;
+    border: 1px solid #fb524e;
+}
+.g-wave{
+    color: #39daa8;
+    border: 1px solid #39daa8;
+}
+.b-wave{
+    color: #34cafd;
+    border: 1px solid #34cafd;
+}
+.wave-content{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.wave-content>div{
+    display: none;
+}
+.wave-content>div>a{
+    display: block;
+    width: 99%;
+    height: 80px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #b2b2b2;
+    text-decoration: none;
+}
+.wave-content>div>a>h1{
+    font-weight: normal;
+    font-size: 10pt;
+    color: #333;
+    margin:10px 0 10px 15px;
+}
+
+.wave-content>div>a>h1>span{
+    font-weight: normal;
+    font-size: 9pt;
+    color: #999999;
+}
+.wave-box{
+    width: 95%;
+    height: 35px;
+    margin-left: 10px;
+}
+.wave-ball{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 9pt;
+    margin-right: 3px;
+    display: inline-block;
+}
+.r-wave--ball{
+    border: 1px solid #fb524e;
+    color:#fb524e;
+}
+.g-wave--ball{
+    border: 1px solid #39daa8;
+    color:#39daa8;
+}
+.b-wave--ball{
+    border: 1px solid #34cafd;
+    color:#34cafd;
+}
