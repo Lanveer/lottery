@@ -1,0 +1,98 @@
+
+.m-item{
+    width: 46%;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid #b2b2b2;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 4% 0 0% 4%;
+}
+.m-item:nth-child(odd){
+    margin-left: 0;
+}
+.m-item-top{
+    width: 100%;
+    height: 30px;
+}
+.m-item-top>h1{
+    font-weight: normal;
+    font-size: 10pt;
+    color: #333;
+    float: left;
+    margin-left: 10px;
+    line-height: 30px;
+}
+.m-item-top>h2{
+    font-weight: normal;
+    font-size: 10pt;
+    color: #999999;
+    float: left;
+    margin-left: 20px;
+    line-height: 30px;
+}
+
+.m-item-down{
+    width: 100%;
+    height: 30px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: space-around;
+}
+.m-balls{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    line-height: 24px;
+    text-align: center;
+    font-size: 9pt;
+    margin: 5px 0px 5px 0;
+    float: left;
+}
+.m-balls:first-child{
+    margin-left: 5px;
+}
+.m-balls:last-child{
+    margin-right: 5px;
+}
+
+
+/*总分样式开始*/
+.t-item{
+    text-align: center;
+    height: auto;
+    overflow: hidden;
+}
+
+.t-item>h2{
+    font-weight: normal;
+    font-size: 10pt;
+    color:#999;
+    margin-top: 4px;
+}
+.t-item>h1{
+    font-weight: normal;
+    font-size: 15pt;
+    color:#333;
+    margin-top: 2px;
+}
+.t-item>p{
+    font-weight: normal;
+    font-size: 9pt;
+    color:#666;
+    width: 95%;
+    margin: 2px auto 0;
+    padding-bottom: 4px;
+}
+
+/*总分样式结束*/
+
+
+/*生肖开始*/
+
+
+
+/*生肖结束*/

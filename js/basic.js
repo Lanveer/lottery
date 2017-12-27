@@ -9,7 +9,7 @@ $(function () {
         e.preventDefault();
         $(this).addClass('active').siblings().removeClass('active');
         var idx= $(this).index();
-        $('.nav-detail-box').hide().eq(idx).show()
+        $('.nav-detail-box').hide().eq(idx).show();
     });
 
 
@@ -27,18 +27,26 @@ $(function () {
         'color':'#fff'
     });
     $('.wave-content>div').eq(0).show();
+    $('.wave-content2>div').eq(0).show();
 
     $('.wave-nav>a').click(function (e) {
         e.preventDefault();
        var idx= $(this).index();
-        console.log(idx);
         switch (idx){
             case 0:
                 $(this).css({
                     'background':'#fb524e',
                     'color':'#fff'
-                }).siblings().css({
-                    'background':'#fff'
+                });
+                $('.g-wave').css({
+                    'border':'1px solid #39daa8',
+                    'background':'#fff',
+                    'color':'#39daa8'
+                });
+                $('.b-wave').css({
+                    'border':'1px solid #34cafd',
+                    'background':'#fff',
+                    'color':'#34cafd'
                 });
                 break;
             case 1:
@@ -46,18 +54,62 @@ $(function () {
                     'background':'#39daa8',
                     'color':'#fff'
                 });
+                $('.r-wave').css({
+                    'border':'1px solid #fb524e',
+                    'background':'#fff',
+                    'color':'#fb524e'
+                });
+                $('.b-wave').css({
+                    'border':'1px solid #34cafd',
+                    'background':'#fff',
+                    'color':'#34cafd'
+                });
                 break;
             case 2:
                 $(this).css({
                     'background':'#34cafd',
                     'color':'#fff'
                 });
+                $('.r-wave').css({
+                    'border':'1px solid #fb524e',
+                    'background':'#fff',
+                    'color':'#fb524e'
+                });
+                $('.g-wave').css({
+                    'border':'1px solid #39daa8',
+                    'background':'#fff',
+                    'color':'#39daa8'
+                });
                 break;
         }
        $('.wave-content>div').eq(idx).show().siblings().hide()
+       $('.wave-content2>div').eq(idx).show().siblings().hide()
 
     });
 
+
+//    总分的效果
+    $('.t-item').click(function () {
+        $(this).find('h2').css({
+            color:'#fb524e'
+        });
+        $(this).find('h1').css({
+            color:'#fb524e'
+        });
+        $(this).find('p').css({
+            color:'#fb524e'
+        });
+
+        $(this).siblings().find('h2').css({
+            color:'#999'
+        });
+        $(this).siblings().find('h1').css({
+            color:'#333'
+        });
+        $(this).siblings().find('p').css({
+            color:'#666'
+        })
+    });
 
 
 
