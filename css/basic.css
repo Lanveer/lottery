@@ -516,7 +516,7 @@ body{
 /*iphone5*/
 @media (device-height:568px) and (-webkit-min-device-pixel-ratio:2) {
      .ball-box{
-         width: 20px;
+         width: 21px;
          height:65px;
          display: flex;
          flex-direction:column;

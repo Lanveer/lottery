@@ -46,6 +46,10 @@
     background: #fff;
     margin-top: 10px;
 }
+.r-content>a{
+    text-decoration: none;
+    display: block;
+}
 
 .r-item{
     width: 100%;

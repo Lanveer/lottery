@@ -79,10 +79,10 @@
     line-height:42px;
     background: url(../imgs/icon.png);
     background-repeat: no-repeat;
-    background-size: 700%;
+    background-size: 600%;
 }
 .p-charge{
-    background-position: 107% 26.3%!important;
+    background-position: 109% 26.3%!important;
 }
 .p-withdraw{
     background-position: 8% 32.3%!important;
@@ -108,7 +108,6 @@
     vertical-align:middle;
     width:100%;
     height:50px;
-
     border-bottom: 1px solid #eee;
 }
 .p-item:last-child{
@@ -387,11 +386,11 @@
 .p-c-box>div{
     width:28%;
     height:35px;
-    border:1px solid #333;
+    border:1px solid #292929;
     border-radius: 5px;
     display: inline-block;
     margin:0 0 10px 5%;
-    font-size: 11pt;
+    font-size: 10pt;
     color: #333;
     text-align: center;
     line-height:35px;
@@ -491,7 +490,7 @@
     background: url(../imgs/icon.png);
     background-repeat: no-repeat;
     background-size: 2400%;
-    background-position: 6.6% 40%!important;
+    background-position: 6.6% 39.8%!important;
 }
 
 .p-c-tools-content>a:nth-child(2n){
@@ -575,8 +574,15 @@
     overflow: hidden;
     background: #fff;
 }
+.p-a-mbox>a{
+    display: block;
+    text-decoration: none;
+    border-bottom: 1px solid #eee;
+}
 
 .p-a-item>h1{
+    font-size: 11pt;
+    color: #333;
     margin-left: 2.5%;
 }
 
