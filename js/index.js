@@ -66,18 +66,17 @@ $(function () {
         var total=$('.chooseBallResult-mid>div').length;
         $('.total').html('共'+total+'注')
 
-    })
+    });
 
 
 
 
 //    点击删除图标
     $('.chooseBallResult-left').click(function () {
-        $('.chooseBall').removeClass('situation1')
-        $('.chooseBall').removeClass('situation2')
-        $('.chooseBall').removeClass('situation3')
+        $('.chooseBall').removeClass('situation1');
+        $('.chooseBall').removeClass('situation2');
+        $('.chooseBall').removeClass('situation3');
         $('.chooseBallResult-mid').empty();
-        $()
         $('.total').html('共0注')
-    })
-})
+    });
+});

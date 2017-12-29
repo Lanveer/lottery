@@ -16,7 +16,7 @@ $(function () {
 //    顶部菜单的点击
     $('.header>h1').click(function () {
         $('.topMenu').slideToggle();
-        $('#index-mask').fadeToggle();
+        $('#html-mask').fadeToggle();
 
     });
 
